@@ -25,7 +25,6 @@ Uvicorn
 Клонируйте репозиторий:
 
 git clone <https://github.com/Daren-art/weather>
-cd weather_app
 
 Создайте виртуальное окружение:
 
