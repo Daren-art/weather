@@ -14,6 +14,6 @@ async def home(request: Request):
     return templates.TemplateResponse(request=request,name="index.html")
 
 @app.post("/", response_class=HTMLResponse)
-async def weather(request: Request,city: str = Form(...)):
+async def weather(request: Request,city:str = Form(...)):
     data = await get_weather(city)
-    return templates.TemplateResponse(request=request,name="weather.html",context={"weather": data})
+    return templates.TemplateResponse(request=request,name="result.html",context={"weather": data})
