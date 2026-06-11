@@ -29,30 +29,7 @@
 git clone <https://github.com/Daren-art/weather>
 cd weather_app
 =======
-Возможности
 
-Поиск погоды по названию города
-Отображение текущей температуры
-Отображение скорости ветра
-Серверный рендеринг HTML через Jinja2
-Асинхронные запросы через httpx
-Подключение PostgreSQL
-
-Стек технологий
-
-FastAPI
-PostgreSQL
-SQLAlchemy
-Jinja2
-httpx
-Uvicorn
-
-Установка
-
-Клонируйте репозиторий:
-
-git clone <https://github.com/Daren-art/weather>
->>>>>>> c3ba1fdd01d0f629b2cb474e6f30ed3f57bd0000
 
 Создайте виртуальное окружение:
 
