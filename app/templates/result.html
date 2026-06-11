@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Погода</title>
+</head>
+<body>
+
+{% if weather %}
+
+<h1>{{ weather.city }}</h1>
+
+<p>Температура: {{ weather.temperature }} °C</p>
+
+<p>Скорость ветра: {{ weather.windspeed }} км/ч</p>
+
+{% else %}
+
+<h2>Город не найден</h2>
+
+{% endif %}
+
+<a href="/">Назад</a>
+
+</body>
+</html>
