@@ -27,7 +27,7 @@
 ```bash
 
 git clone <https://github.com/Daren-art/weather>
-cd weather_app
+cd weather
 =======
 
 
